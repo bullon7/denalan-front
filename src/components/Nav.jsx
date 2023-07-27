@@ -1,7 +1,16 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export const Nav = () => {
   return (
-    <div>Nav</div>
-  )
-}
+    <nav className="nav navbar-expand-lg navbar-light bg-light">
+      <div className="container-fluid">
+        <div className="navbar-brand">
+          <Link to={ <HomePage /> } >
+            <img src="/data/Logo,sin,fondiu.png" alt="" />
+          </Link>
+        </div>
+      </div>
+    </nav>
+  );
+};

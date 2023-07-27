@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import DenalanApp from './DenalanApp'
+import { DenalanApp } from "./DenalanApp";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

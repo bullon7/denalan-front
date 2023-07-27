@@ -1,12 +1,16 @@
-import React from "react";
-import { Nav } from "./components/Nav";
+import { Provider } from "react-redux"
+import { BrowserRouter } from "react-router-dom"
+import { AppRouter } from "./router/AppRouter"
+import { store } from "../src/store/store";
 
-function App() {
+
+
+export const DenalanApp = () => {
   return (
-    <>
-      <Nav />
-    </>
-  );
+    <Provider store={ store }>
+      <BrowserRouter>
+      <AppRouter />
+      </BrowserRouter>
+    </Provider>
+  )
 }
-
-export default App;
