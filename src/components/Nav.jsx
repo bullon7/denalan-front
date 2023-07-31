@@ -6,7 +6,7 @@ export const Nav = () => {
     <nav className="nav navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <div className="navbar-brand">
-          <Link to={ <HomePage /> } >
+          <Link to='/' >
             <img src="/data/Logo,sin,fondiu.png" alt="" />
           </Link>
         </div>
