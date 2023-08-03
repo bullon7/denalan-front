@@ -8,7 +8,6 @@ import { MainHead } from '../components/MainHead'
 export const HomePage = () => {
   return (
     <>
-      {/* <Nav /> */}
       <MainHead />
     </>
   )
