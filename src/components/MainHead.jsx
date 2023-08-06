@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import casaTintaRoja from "../data/Depto--136.jpg";
-import departamentoDenalan from "../data/Depto--168.jpg";
-import cabañaDenalan from "../data/Depto--160.jpg";
+import casaTintaRoja from "../data/foto24.webp";
+import departamentoDenalan from "../data/foto34.webp"
+import cabañaDenalan from "../data/foto26.webp";
 import logo from "../data/Logo,sin,fondiu.png";
 import whatsapp from "../data/whatsapp.svg";
 import facebook from "../data/Facebook.svg";
