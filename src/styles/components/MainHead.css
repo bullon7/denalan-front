@@ -137,14 +137,13 @@ body {
     font-size: 2.5rem;
     font-family: Belleza;
     color: #5a361d;
-
     display: contents;
     margin: 20px;
   }
 
   .img-redes {
-    margin-left: 0.5rem;
-    padding-bottom: inherit;
+    margin: 0.5rem;
+    padding-bottom: 3%;
   }
 }
 

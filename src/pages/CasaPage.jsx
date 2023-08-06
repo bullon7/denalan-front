@@ -6,9 +6,7 @@ import { Reservar } from "../components/Reservar";
 export const CasaPage = () => {
   return (
     <>
-      <Nav />
       <Header />
-      <Reservar />
       <Footer />
     </>
   );

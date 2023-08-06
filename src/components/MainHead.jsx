@@ -73,24 +73,24 @@ export const MainHead = () => {
           className="redes"
           style={{ textDecoration: 'none' }}
         >
-          <h3 className="h3-redes">+54 9 2267520604</h3>
           <img
             src={whatsapp}
             alt="Whatsapp de Denalan Alquileres"
             className="img-redes"
           />
+          <h3 className="h3-redes">+54 9 2267520604</h3>
         </Link>
         <Link to={"/casa-tinta-roja-1"} target="_blank" className="redes" style={{ textDecoration: 'none' }}>
-          <h3 className="h3-redes">Deanalan Alquileres</h3>
           <img src={facebook} alt="Facebook - Denalan" className="img-redes"/>
+          <h3 className="h3-redes">Deanalan Alquileres</h3>
         </Link>
         <Link
           to={"https://www.instagram.com/denalanvg/"}
           target="_blank"
           className="redes" style={{ textDecoration: 'none' }}
         >
-          <h3 className="h3-redes">@denalanalquileres</h3>
           <img src={instagram} alt="Instagram - @denalanvg" className="img-redes"/>
+          <h3 className="h3-redes">@denalanalquileres</h3>
         </Link>
       </footer>
     </div>
