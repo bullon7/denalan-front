@@ -40,7 +40,10 @@ export const Header = () => {
               </h4>
             </div>
             <div className="col-12 col-sm-2">
-              <h1>COSITAS</h1>
+              <div className="octagono"></div>
+              <div className="octagono"></div>
+              <div className="octagono"></div>
+              <div className="octagono"></div>
             </div>
             <div className="col ">
               <p className="d-inline-block texto-desc">
