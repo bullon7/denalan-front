@@ -1,0 +1,24 @@
+body {
+    background-color: #DDD4CF;
+}
+
+.numero-wpp {
+    font-family: Belleza;
+    display: inline;
+    background-color: #9D9895;
+    padding-inline: 20px;
+    border-radius: 10px;
+}
+
+.boton-wpp {
+    margin: inherit;
+}
+
+.texto-desc {
+    width: 80%;
+    font-family: Belleza;
+    font-size: 1.5rem;
+    background-color: #9D9895;
+    border-radius: 20px;
+
+}
